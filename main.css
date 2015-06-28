@@ -3,8 +3,6 @@
   width:200px;
   height:200px;
   position:absolute;
-  right:15px;
-  top:15px;
 }
 #svg-arrows{
   cursor: pointer;
@@ -18,6 +16,10 @@
    font-size: 200%;
    alignment-baseline: central;
    fill: #fff;
+}
+#svg-arrows g text::selection {
+  background: transparent;
+  color:inherit;
 }
 #svg-arrows g:hover polygon {
     fill: #0076bd;
