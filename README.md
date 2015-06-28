@@ -6,6 +6,7 @@
 * Fully responsive (change width / height by css)
 * Fully vector drawing
 * Cross plafrom / cross browsers (ie9+)
+* Prees Top/Bottom 5 times to disable
 
 
 ## Demo 
