@@ -1,0 +1,37 @@
+/* arrows SVG*/
+.svg-container{
+  width:200px;
+  height:200px;
+  position:absolute;
+  right:15px;
+  top:15px;
+}
+#svg-arrows{
+  cursor: pointer;
+  border-radius: 8px;
+}
+#svg-arrows g polygon{
+  fill:#098ad8;
+}
+#svg-arrows g text {
+   font-family: FontAwesome;
+   font-size: 200%;
+   alignment-baseline: central;
+   fill: #fff;
+}
+#svg-arrows g:hover polygon {
+    fill: #0076bd;
+}
+#svg-arrows g.disabled polygon{
+  fill:#6a7698;
+  cursor: default;
+}
+#svg-arrows g.disabled polygon:hover{
+  fill:#6a7698;
+  cursor: default;
+}
+#svg-arrows g.disabled:hover {
+    fill: #6a7698;
+    cursor: default;
+}
+/* end of arrows SVG*/
