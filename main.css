@@ -2,7 +2,6 @@
 .svg-container{
   width:200px;
   height:200px;
-  position:absolute;
 }
 #svg-arrows{
   cursor: pointer;
